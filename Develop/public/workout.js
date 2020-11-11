@@ -43,7 +43,7 @@ function formatDate(date) {
 
   return new Date(date).toLocaleDateString(options);
 }
-
+//
 function renderWorkoutSummary(summary) {
   const container = document.querySelector(".workout-stats");
 
